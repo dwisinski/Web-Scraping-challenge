@@ -1,3 +1,4 @@
+# Dependencies and Setup
 from flask import Flask, render_template, redirect
 from flask_pymongo import PyMongo
 import scrape_mars
@@ -8,6 +9,7 @@ app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_app"
 mongo = PyMongo(app)
 
+# Creating the application routes to bind URLs to the functions
 @app.route("/")
 def index():
     mars_values = mongo.db.mars_values.find_one()

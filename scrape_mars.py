@@ -113,6 +113,7 @@ def scrape():
     # Quitting browser session  
     browser.quit()
 
+    # Storing output in a dictionary
     mars_values = {
         "news_url": news_url,
         "news_title": news_title,
@@ -123,4 +124,5 @@ def scrape():
         "hemisphere_images": hemisphere_image_urls
     }
 
+    # Returning the final results
     return mars_values
