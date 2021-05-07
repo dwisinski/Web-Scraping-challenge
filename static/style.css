@@ -1,0 +1,95 @@
+.top_row {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgb(49, 49, 49));
+  border-radius: 15px;
+  font-family: 'VT323', monospace;
+}
+
+body {
+  background-color:black;
+  color: white;
+  font-family: 'VT323', monospace;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  padding: 15px;
+}
+
+table.dataframe {
+  border-collapse: collapse;
+  background-color: black;
+}
+
+th {
+  background-color: rgba(49, 49, 49, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+  font-size: .9em;
+  text-align: left;
+  padding: 6px;
+}
+
+td {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+  font-size: .9em;
+  text-align: left;
+  padding: 6px;
+}
+
+tr:hover {
+  background-color: rgb(34, 34, 34, 0.75);
+}
+
+p.small {
+  font-size: .7em;
+  padding: 6px;
+  }
+
+img { 
+  opacity: 0.85; 
+  } 
+  
+img:hover { 
+  opacity: 1; 
+  }
+
+a:link {
+  color: white;
+  text-decoration: none;
+  }
+
+a:hover {
+  color: lightgray;
+  }
+
+a:visited {
+  color: white;
+  }
+    
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.btn-danger {
+  background-color: #92202d;
+  border-color: #92202d;
+  box-shadow: none;
+  color: white;
+  }
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+  background-color: #501118;
+  border-color: #501118;
+  box-shadow: none;
+  color: white;
+  }
+
+.card {
+  background-color:black;
+  border: none;
+  }
